@@ -1,0 +1,97 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    padding: 50px;
+    padding-top: 60px;
+}
+
+.tbl{
+    width: 100%;
+}
+
+.tbl td{
+    vertical-align: middle;
+    text-align: left;
+}
+
+.tbl td:nth-child(3){
+    width: 100px;
+    text-align: right;
+}
+
+
+.tbl td:nth-child(1){
+    width: 250px;
+}
+
+.chatlist{
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+.mymessage td:nth-child(1) > div {
+    max-width: 500px; 
+    background: #4054B2; 
+    color: white;
+    height: auto; 
+    min-height: 50px;     
+    padding: 10px; 
+    border-radius: 10px; 
+    text-align: right; 
+    width: auto; 
+    display: inline-block;   
+    word-wrap: break-word;
+}
+
+.mymessage td:nth-child(2){
+    width: 60px; 
+    vertical-align: middle; 
+    font-size: 10px; 
+    text-align: center;
+}
+
+.mymessage td:nth-child(2) > div {
+    width: 50px; 
+    height: 50px; 
+    background: #4054B2; 
+    margin: 0 auto;
+}
+
+
+
+.othermessage td:nth-child(2) > div {
+    max-width: 500px; 
+    background: #F5F5F5; 
+    height: auto; 
+    min-height: 50px; 
+    padding: 10px; 
+    border-radius: 10px; 
+    text-align: left; 
+    width: auto; 
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.othermessage td:nth-child(1){
+    width: 60px; 
+    vertical-align: middle; 
+    font-size: 10px; 
+    text-align: center;
+}
+
+.othermessage td:nth-child(1) > div {
+    width: 50px; 
+    height: 50px; 
+    background: rgb(66, 66, 66); 
+    margin: 0 auto;
+}
